@@ -1,4 +1,4 @@
-
+//git init
 
 const pro = new Promise((resolve, reject) => {
   const innerpro = new Promise((r, reject) => {
