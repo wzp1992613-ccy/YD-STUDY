@@ -13,4 +13,4 @@ const pro = new Promise((resolve, reject) => {
   console.log("yideng");
 });
 pro.then((res) => console.log(res));
-console.log("end");
+console.log("end"); // 我是codex
