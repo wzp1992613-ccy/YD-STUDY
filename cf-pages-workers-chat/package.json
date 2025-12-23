@@ -1,0 +1,8 @@
+{
+  "name": "cf-pages-workers-chat",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ]
+}

@@ -1,0 +1,7 @@
+name = "cf-pages-workers-chat-api"
+main = "src/index.ts"
+compatibility_date = "2025-12-20"
+
+[vars]
+# 部署后用 wrangler secret set OPENAI_API_KEY 更安全
+OPENAI_MODEL = "gpt-4.1-mini"

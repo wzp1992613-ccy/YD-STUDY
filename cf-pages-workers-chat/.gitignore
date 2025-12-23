@@ -1,0 +1,30 @@
+# Node modules
+/node_modules
+/apps/web/node_modules
+/apps/api/node_modules
+
+# Build outputs
+/dist
+/build
+/apps/web/dist
+/apps/web/.vite
+
+# Local configs and env
+autoenv
+*.log
+.env
+.env.*
+
+# Editor tooling
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Wrangler local state
+/apps/api/.wrangler/
+
+# Misc
+npm-debug.log*
+pnpm-lock.yaml
